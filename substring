@@ -1,0 +1,8 @@
+l=[]
+st=str(input)
+for i in range(0,len(st)):
+    l.append(st[i])
+a=set(l)
+b=list(a)
+c=len(b)
+print(c)
